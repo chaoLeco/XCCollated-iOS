@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _dataSource = @[@"pickerView整理",@"tableView 没有数据"];
-    _detailSource = @[@"包括 datepickerView 和普通的pickerView。",@"给别人的内容加了一层tableView的外壳"];
+    _dataSource = @[@"pickerView整理",@"tableView 没有数据",@"图片的拉伸"];
+    _detailSource = @[@"包括 datepickerView 和普通的pickerView。",@"给别人的内容加了一层tableView的外壳",@"跟随ScrollView的滑动缩放图片"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,6 +53,9 @@
             break;
         case 1:
             [self performSegueWithIdentifier:@"TableViewSbSegue" sender:indexPath];
+            break;
+        case 2:
+            [self performSegueWithIdentifier:@"picStrectchSegue" sender:indexPath];
             break;
         default:
             break;

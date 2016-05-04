@@ -13,6 +13,7 @@
 		C4534B0B1CBF686A001C5EDD /* ownerAuth_page3_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B081CBF686A001C5EDD /* ownerAuth_page3_img@2x.png */; };
 		C4534B0C1CBF686A001C5EDD /* ownerAuth_page3_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B091CBF686A001C5EDD /* ownerAuth_page3_img@3x.png */; };
 		C4534B0D1CBF686A001C5EDD /* ownerAuthbg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B0A1CBF686A001C5EDD /* ownerAuthbg@3x.png */; };
+		C46B98571CD9DBAC00547794 /* XCPicStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */; };
 		C4F5AB2C1CBDEE0200906324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB2B1CBDEE0200906324 /* main.m */; };
 		C4F5AB2F1CBDEE0200906324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB2E1CBDEE0200906324 /* AppDelegate.m */; };
 		C4F5AB321CBDEE0200906324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB311CBDEE0200906324 /* ViewController.m */; };
@@ -55,6 +56,8 @@
 		C4534B081CBF686A001C5EDD /* ownerAuth_page3_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuth_page3_img@2x.png"; sourceTree = "<group>"; };
 		C4534B091CBF686A001C5EDD /* ownerAuth_page3_img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuth_page3_img@3x.png"; sourceTree = "<group>"; };
 		C4534B0A1CBF686A001C5EDD /* ownerAuthbg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuthbg@3x.png"; sourceTree = "<group>"; };
+		C46B98551CD9DBAC00547794 /* XCPicStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPicStretchViewController.h; sourceTree = "<group>"; };
+		C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPicStretchViewController.m; sourceTree = "<group>"; };
 		C4F5AB271CBDEE0200906324 /* XCCollated-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCCollated-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F5AB2B1CBDEE0200906324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F5AB2D1CBDEE0200906324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				C4F5AB5F1CBE1F5600906324 /* XCPickerViewController.m */,
 				C4534B041CBF6709001C5EDD /* XCTableViewController.h */,
 				C4534B051CBF6709001C5EDD /* XCTableViewController.m */,
+				C46B98551CD9DBAC00547794 /* XCPicStretchViewController.h */,
+				C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 				C4F5AB2F1CBDEE0200906324 /* AppDelegate.m in Sources */,
 				C4534B061CBF6709001C5EDD /* XCTableViewController.m in Sources */,
 				C4F5AB2C1CBDEE0200906324 /* main.m in Sources */,
+				C46B98571CD9DBAC00547794 /* XCPicStretchViewController.m in Sources */,
 				C4534B021CBF6598001C5EDD /* UIScrollView+EmptyDataSet.m in Sources */,
 				C4F5AB601CBE1F5600906324 /* XCPickerViewController.m in Sources */,
 			);

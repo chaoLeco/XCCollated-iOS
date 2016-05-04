@@ -64,6 +64,7 @@
                     <connections>
                         <segue destination="Ftf-gO-ToI" kind="show" identifier="pickerViewSbSegue" id="ZYQ-1l-h9a"/>
                         <segue destination="0DD-yK-TY4" kind="show" identifier="TableViewSbSegue" id="P43-zc-CoQ"/>
+                        <segue destination="kOJ-xX-eUR" kind="show" identifier="picStrectchSegue" id="ZmA-WF-DS3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -186,6 +187,108 @@
             </objects>
             <point key="canvasLocation" x="2564" y="842"/>
         </scene>
+        <!--下拉图片的放大效果-->
+        <scene sceneID="Zqo-os-keg">
+            <objects>
+                <viewController title="下拉图片的放大效果" id="kOJ-xX-eUR" customClass="XCPicStretchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5oZ-MD-CPC"/>
+                        <viewControllerLayoutGuide type="bottom" id="xLb-wo-A3c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jRt-qL-xCf">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ownerAuthbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ORu-YX-8U8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="E1a-eZ-vMN"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xV7-lu-kXj">
+                                <rect key="frame" x="0.0" y="75" width="600" height="461"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="kOJ-xX-eUR" id="JoP-SO-zlE"/>
+                                    <outlet property="delegate" destination="kOJ-xX-eUR" id="IWX-fJ-AmK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xV7-lu-kXj" firstAttribute="top" secondItem="ORu-YX-8U8" secondAttribute="bottom" id="Dgr-TK-USA"/>
+                            <constraint firstItem="xV7-lu-kXj" firstAttribute="leading" secondItem="jRt-qL-xCf" secondAttribute="leading" id="MMH-FE-3ek"/>
+                            <constraint firstItem="xV7-lu-kXj" firstAttribute="top" secondItem="jRt-qL-xCf" secondAttribute="topMargin" constant="75" id="XJB-Uo-PSY"/>
+                            <constraint firstItem="xLb-wo-A3c" firstAttribute="top" secondItem="xV7-lu-kXj" secondAttribute="bottom" id="aDe-r2-bag"/>
+                            <constraint firstItem="ORu-YX-8U8" firstAttribute="top" secondItem="5oZ-MD-CPC" secondAttribute="bottom" id="dgh-GF-zY3"/>
+                            <constraint firstAttribute="trailing" secondItem="xV7-lu-kXj" secondAttribute="trailing" id="f05-ok-3yn"/>
+                            <constraint firstAttribute="trailing" secondItem="ORu-YX-8U8" secondAttribute="trailing" id="hhm-UU-fEU"/>
+                            <constraint firstItem="ORu-YX-8U8" firstAttribute="leading" secondItem="jRt-qL-xCf" secondAttribute="leading" id="z3e-ej-jVB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dgr-TK-USA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="下拉图片的放大效果" id="DDV-Ko-30I">
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="r0T-ek-9hs">
+                            <connections>
+                                <segue destination="J6r-OQ-SNd" kind="show" id="jjc-3h-B4l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imgView" destination="ORu-YX-8U8" id="aZR-lV-7oG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hRF-eB-6rx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3272" y="842"/>
+        </scene>
+        <!--跟随效果二-->
+        <scene sceneID="22W-WL-xXT">
+            <objects>
+                <viewController id="J6r-OQ-SNd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g5n-YW-HHs"/>
+                        <viewControllerLayoutGuide type="bottom" id="ln1-XG-zfa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Mn-eA-T3z">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mZf-iE-D5j">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mZf-iE-D5j" secondAttribute="trailing" id="FfU-hg-30P"/>
+                            <constraint firstItem="mZf-iE-D5j" firstAttribute="top" secondItem="g5n-YW-HHs" secondAttribute="bottom" id="NHz-8b-Pqd"/>
+                            <constraint firstItem="ln1-XG-zfa" firstAttribute="top" secondItem="mZf-iE-D5j" secondAttribute="bottom" id="b7X-Xa-iUF"/>
+                            <constraint firstItem="mZf-iE-D5j" firstAttribute="leading" secondItem="2Mn-eA-T3z" secondAttribute="leading" id="vpP-DS-ViQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="跟随效果二" id="Dai-Np-T0u">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="bE3-nM-grA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="I7x-gP-QtS">
+                                <rect key="frame" x="20" y="4" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="RJ6-cT-OIH"/>
+                                    <constraint firstAttribute="width" constant="36" id="XiA-1w-DcK"/>
+                                </constraints>
+                                <state key="normal" image="ownerAuth_page3_img.png"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Z7-kx-buH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4025" y="842"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="rxe-2k-awM">
             <objects>
@@ -206,4 +309,8 @@
             <point key="canvasLocation" x="256" y="842"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ownerAuth_page3_img.png" width="115" height="133"/>
+        <image name="ownerAuthbg.png" width="375" height="200"/>
+    </resources>
 </document>
