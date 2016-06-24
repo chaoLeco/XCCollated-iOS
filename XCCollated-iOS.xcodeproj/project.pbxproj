@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4102FCF1D1933AF00E29444 /* XCPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FCA1D1933AF00E29444 /* XCPickerViewController.m */; };
+		C4102FD01D1933AF00E29444 /* XCPicStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FCC1D1933AF00E29444 /* XCPicStretchViewController.m */; };
+		C4102FD11D1933AF00E29444 /* XCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FCE1D1933AF00E29444 /* XCTableViewController.m */; };
+		C4102FDE1D193AA500E29444 /* XCModleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FDB1D193AA500E29444 /* XCModleBase.m */; };
+		C4102FDF1D193AA500E29444 /* XCRequestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FDD1D193AA500E29444 /* XCRequestBase.m */; };
+		C4102FE21D193AF900E29444 /* XCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C4102FE11D193AF900E29444 /* XCNetworking.m */; };
 		C4534B021CBF6598001C5EDD /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C4534AFF1CBF6598001C5EDD /* UIScrollView+EmptyDataSet.m */; };
 		C4534B031CBF6598001C5EDD /* XCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4534B011CBF6598001C5EDD /* XCTableView.m */; };
-		C4534B061CBF6709001C5EDD /* XCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4534B051CBF6709001C5EDD /* XCTableViewController.m */; };
 		C4534B0B1CBF686A001C5EDD /* ownerAuth_page3_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B081CBF686A001C5EDD /* ownerAuth_page3_img@2x.png */; };
 		C4534B0C1CBF686A001C5EDD /* ownerAuth_page3_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B091CBF686A001C5EDD /* ownerAuth_page3_img@3x.png */; };
 		C4534B0D1CBF686A001C5EDD /* ownerAuthbg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4534B0A1CBF686A001C5EDD /* ownerAuthbg@3x.png */; };
-		C46B98571CD9DBAC00547794 /* XCPicStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */; };
+		C45BBA651D1A3A81002573EB /* XPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BBA641D1A3A81002573EB /* XPhotoViewController.m */; };
+		C45BBA681D1A3A8A002573EB /* XPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BBA671D1A3A8A002573EB /* XPhotoCollectionViewCell.m */; };
+		C45BBA6E1D1A8EE5002573EB /* Xphoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BBA6D1D1A8EE5002573EB /* Xphoto.m */; };
+		C45BBA711D1A9517002573EB /* XphotoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BBA701D1A9517002573EB /* XphotoRequest.m */; };
 		C4F5AB2C1CBDEE0200906324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB2B1CBDEE0200906324 /* main.m */; };
 		C4F5AB2F1CBDEE0200906324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB2E1CBDEE0200906324 /* AppDelegate.m */; };
 		C4F5AB321CBDEE0200906324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB311CBDEE0200906324 /* ViewController.m */; };
@@ -22,7 +30,6 @@
 		C4F5AB3A1CBDEE0200906324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F5AB381CBDEE0200906324 /* LaunchScreen.storyboard */; };
 		C4F5AB451CBDEE0200906324 /* XCCollated_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB441CBDEE0200906324 /* XCCollated_iOSTests.m */; };
 		C4F5AB501CBDEE0200906324 /* XCCollated_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB4F1CBDEE0200906324 /* XCCollated_iOSUITests.m */; };
-		C4F5AB601CBE1F5600906324 /* XCPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB5F1CBE1F5600906324 /* XCPickerViewController.m */; };
 		C4F5AB651CBE207E00906324 /* XCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5AB641CBE207E00906324 /* XCPickerView.m */; };
 		F1884AD9D314572001414998 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBB20579BFF62934D1BF56B /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -47,17 +54,33 @@
 /* Begin PBXFileReference section */
 		57929E57E461F2BFEBA823AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4D187D329AC3E92B71A84E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C4102FC91D1933AF00E29444 /* XCPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPickerViewController.h; path = "XCCollated-iOS/Controller/XCPickerViewController.h"; sourceTree = SOURCE_ROOT; };
+		C4102FCA1D1933AF00E29444 /* XCPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCPickerViewController.m; path = "XCCollated-iOS/Controller/XCPickerViewController.m"; sourceTree = SOURCE_ROOT; };
+		C4102FCB1D1933AF00E29444 /* XCPicStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCPicStretchViewController.h; path = "XCCollated-iOS/Controller/XCPicStretchViewController.h"; sourceTree = SOURCE_ROOT; };
+		C4102FCC1D1933AF00E29444 /* XCPicStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCPicStretchViewController.m; path = "XCCollated-iOS/Controller/XCPicStretchViewController.m"; sourceTree = SOURCE_ROOT; };
+		C4102FCD1D1933AF00E29444 /* XCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCTableViewController.h; path = "XCCollated-iOS/Controller/XCTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		C4102FCE1D1933AF00E29444 /* XCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCTableViewController.m; path = "XCCollated-iOS/Controller/XCTableViewController.m"; sourceTree = SOURCE_ROOT; };
+		C4102FDA1D193AA500E29444 /* XCModleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCModleBase.h; sourceTree = "<group>"; };
+		C4102FDB1D193AA500E29444 /* XCModleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCModleBase.m; sourceTree = "<group>"; };
+		C4102FDC1D193AA500E29444 /* XCRequestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCRequestBase.h; sourceTree = "<group>"; };
+		C4102FDD1D193AA500E29444 /* XCRequestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCRequestBase.m; sourceTree = "<group>"; };
+		C4102FE01D193AF900E29444 /* XCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNetworking.h; sourceTree = "<group>"; };
+		C4102FE11D193AF900E29444 /* XCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNetworking.m; sourceTree = "<group>"; };
 		C4534AFE1CBF6598001C5EDD /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		C4534AFF1CBF6598001C5EDD /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		C4534B001CBF6598001C5EDD /* XCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTableView.h; sourceTree = "<group>"; };
 		C4534B011CBF6598001C5EDD /* XCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTableView.m; sourceTree = "<group>"; };
-		C4534B041CBF6709001C5EDD /* XCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTableViewController.h; sourceTree = "<group>"; };
-		C4534B051CBF6709001C5EDD /* XCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTableViewController.m; sourceTree = "<group>"; };
 		C4534B081CBF686A001C5EDD /* ownerAuth_page3_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuth_page3_img@2x.png"; sourceTree = "<group>"; };
 		C4534B091CBF686A001C5EDD /* ownerAuth_page3_img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuth_page3_img@3x.png"; sourceTree = "<group>"; };
 		C4534B0A1CBF686A001C5EDD /* ownerAuthbg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ownerAuthbg@3x.png"; sourceTree = "<group>"; };
-		C46B98551CD9DBAC00547794 /* XCPicStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPicStretchViewController.h; sourceTree = "<group>"; };
-		C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPicStretchViewController.m; sourceTree = "<group>"; };
+		C45BBA631D1A3A81002573EB /* XPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPhotoViewController.h; sourceTree = "<group>"; };
+		C45BBA641D1A3A81002573EB /* XPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPhotoViewController.m; sourceTree = "<group>"; };
+		C45BBA661D1A3A8A002573EB /* XPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C45BBA671D1A3A8A002573EB /* XPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		C45BBA6C1D1A8EE5002573EB /* Xphoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xphoto.h; sourceTree = "<group>"; };
+		C45BBA6D1D1A8EE5002573EB /* Xphoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xphoto.m; sourceTree = "<group>"; };
+		C45BBA6F1D1A9517002573EB /* XphotoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XphotoRequest.h; sourceTree = "<group>"; };
+		C45BBA701D1A9517002573EB /* XphotoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XphotoRequest.m; sourceTree = "<group>"; };
 		C4F5AB271CBDEE0200906324 /* XCCollated-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCCollated-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F5AB2B1CBDEE0200906324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F5AB2D1CBDEE0200906324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +97,6 @@
 		C4F5AB4B1CBDEE0200906324 /* XCCollated-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCCollated-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F5AB4F1CBDEE0200906324 /* XCCollated_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCCollated_iOSUITests.m; sourceTree = "<group>"; };
 		C4F5AB511CBDEE0200906324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F5AB5E1CBE1F5600906324 /* XCPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPickerViewController.h; sourceTree = "<group>"; };
-		C4F5AB5F1CBE1F5600906324 /* XCPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPickerViewController.m; sourceTree = "<group>"; };
 		C4F5AB631CBE207E00906324 /* XCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPickerView.h; sourceTree = "<group>"; };
 		C4F5AB641CBE207E00906324 /* XCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPickerView.m; sourceTree = "<group>"; };
 		C4F5AB661CBE214000906324 /* XCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDefine.h; sourceTree = "<group>"; };
@@ -126,6 +147,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C4102FC81D1931AC00E29444 /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				C45BBA5C1D1A359D002573EB /* C */,
+				C45BBA5B1D1A3595002573EB /* V */,
+				C45BBA5A1D1A356B002573EB /* M */,
+			);
+			name = "瀑布流";
+			sourceTree = "<group>";
+		};
+		C4102FD91D193A1A00E29444 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C4102FDA1D193AA500E29444 /* XCModleBase.h */,
+				C4102FDB1D193AA500E29444 /* XCModleBase.m */,
+				C4102FDC1D193AA500E29444 /* XCRequestBase.h */,
+				C4102FDD1D193AA500E29444 /* XCRequestBase.m */,
+				C4102FE01D193AF900E29444 /* XCNetworking.h */,
+				C4102FE11D193AF900E29444 /* XCNetworking.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		C4534AFD1CBF6598001C5EDD /* XCTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +189,35 @@
 				C4534B0A1CBF686A001C5EDD /* ownerAuthbg@3x.png */,
 			);
 			path = picShource;
+			sourceTree = "<group>";
+		};
+		C45BBA5A1D1A356B002573EB /* M */ = {
+			isa = PBXGroup;
+			children = (
+				C45BBA6C1D1A8EE5002573EB /* Xphoto.h */,
+				C45BBA6D1D1A8EE5002573EB /* Xphoto.m */,
+				C45BBA6F1D1A9517002573EB /* XphotoRequest.h */,
+				C45BBA701D1A9517002573EB /* XphotoRequest.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		C45BBA5B1D1A3595002573EB /* V */ = {
+			isa = PBXGroup;
+			children = (
+				C45BBA661D1A3A8A002573EB /* XPhotoCollectionViewCell.h */,
+				C45BBA671D1A3A8A002573EB /* XPhotoCollectionViewCell.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		C45BBA5C1D1A359D002573EB /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C45BBA631D1A3A81002573EB /* XPhotoViewController.h */,
+				C45BBA641D1A3A81002573EB /* XPhotoViewController.m */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 		C4F5AB1E1CBDEE0200906324 = {
@@ -180,7 +253,7 @@
 				C4534B071CBF6860001C5EDD /* picShource */,
 				C4F5AB611CBE204600906324 /* Libraries */,
 				C4F5AB621CBE204600906324 /* Tools */,
-				C4F5AB5D1CBE1F2B00906324 /* ViewController */,
+				C4F5AB5D1CBE1F2B00906324 /* Controller */,
 				C4F5AB2A1CBDEE0200906324 /* Supporting Files */,
 			);
 			path = "XCCollated-iOS";
@@ -215,17 +288,18 @@
 			path = "XCCollated-iOSUITests";
 			sourceTree = "<group>";
 		};
-		C4F5AB5D1CBE1F2B00906324 /* ViewController */ = {
+		C4F5AB5D1CBE1F2B00906324 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C4F5AB5E1CBE1F5600906324 /* XCPickerViewController.h */,
-				C4F5AB5F1CBE1F5600906324 /* XCPickerViewController.m */,
-				C4534B041CBF6709001C5EDD /* XCTableViewController.h */,
-				C4534B051CBF6709001C5EDD /* XCTableViewController.m */,
-				C46B98551CD9DBAC00547794 /* XCPicStretchViewController.h */,
-				C46B98561CD9DBAC00547794 /* XCPicStretchViewController.m */,
+				C4102FC91D1933AF00E29444 /* XCPickerViewController.h */,
+				C4102FCA1D1933AF00E29444 /* XCPickerViewController.m */,
+				C4102FCB1D1933AF00E29444 /* XCPicStretchViewController.h */,
+				C4102FCC1D1933AF00E29444 /* XCPicStretchViewController.m */,
+				C4102FCD1D1933AF00E29444 /* XCTableViewController.h */,
+				C4102FCE1D1933AF00E29444 /* XCTableViewController.m */,
+				C4102FC81D1931AC00E29444 /* 瀑布流 */,
 			);
-			path = ViewController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C4F5AB611CBE204600906324 /* Libraries */ = {
@@ -243,6 +317,7 @@
 			children = (
 				C4F5AB661CBE214000906324 /* XCDefine.h */,
 				C4F5AB671CBE238700906324 /* XCHeader.h */,
+				C4102FD91D193A1A00E29444 /* network */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -431,15 +506,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4102FE21D193AF900E29444 /* XCNetworking.m in Sources */,
 				C4534B031CBF6598001C5EDD /* XCTableView.m in Sources */,
 				C4F5AB321CBDEE0200906324 /* ViewController.m in Sources */,
+				C4102FD11D1933AF00E29444 /* XCTableViewController.m in Sources */,
+				C4102FD01D1933AF00E29444 /* XCPicStretchViewController.m in Sources */,
+				C45BBA711D1A9517002573EB /* XphotoRequest.m in Sources */,
+				C45BBA651D1A3A81002573EB /* XPhotoViewController.m in Sources */,
+				C4102FDF1D193AA500E29444 /* XCRequestBase.m in Sources */,
 				C4F5AB651CBE207E00906324 /* XCPickerView.m in Sources */,
+				C4102FDE1D193AA500E29444 /* XCModleBase.m in Sources */,
 				C4F5AB2F1CBDEE0200906324 /* AppDelegate.m in Sources */,
-				C4534B061CBF6709001C5EDD /* XCTableViewController.m in Sources */,
+				C45BBA6E1D1A8EE5002573EB /* Xphoto.m in Sources */,
+				C45BBA681D1A3A8A002573EB /* XPhotoCollectionViewCell.m in Sources */,
 				C4F5AB2C1CBDEE0200906324 /* main.m in Sources */,
-				C46B98571CD9DBAC00547794 /* XCPicStretchViewController.m in Sources */,
+				C4102FCF1D1933AF00E29444 /* XCPickerViewController.m in Sources */,
 				C4534B021CBF6598001C5EDD /* UIScrollView+EmptyDataSet.m in Sources */,
-				C4F5AB601CBE1F5600906324 /* XCPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

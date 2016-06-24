@@ -24,27 +24,46 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Masonry (1.0.0)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
-  - YTKNetwork (0.5.0):
+  - CHTCollectionViewWaterfallLayout (0.9.4):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.4)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.4)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - Masonry (1.0.1)
+  - pop (1.0.9)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SSKeychain (1.4.0)
+  - VBFPopFlatButton (0.0.7):
+    - pop
+  - YTKNetwork (1.1.0):
     - AFDownloadRequestOperation (~> 2.0)
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - AFNetworking-Synchronous/2.x
-  - Masonry (~> 1.0.0)
-  - SDWebImage (~> 3.7.3)
-  - YTKNetwork (~> 0.5.0)
+  - CHTCollectionViewWaterfallLayout (~> 0.9.4)
+  - Mantle (~> 2.0.7)
+  - Masonry (~> 1.0.1)
+  - SDWebImage (~> 3.7.6)
+  - SSKeychain (~> 1.4.0)
+  - VBFPopFlatButton (~> 0.0.7)
+  - YTKNetwork (~> 1.1.0)
 
 SPEC CHECKSUMS:
   AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   AFNetworking-Synchronous: 29531ad341ec465a4ff9b66dea9cf7272080e12e
-  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
-  YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
+  CHTCollectionViewWaterfallLayout: db74be9135826d285f45ff163fd090e57c99fc50
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  VBFPopFlatButton: 39e48ab56277f3d056734a9b5ec5d0cc60d69778
+  YTKNetwork: a41c1df80d4f3b9d05c19c514a2c604e7a6ac341
 
 COCOAPODS: 0.39.0

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //猿题库 基础地址设置
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+    config.baseUrl = @"";
+    //config.cdnUrl = @"http://fen.bi";
+    
     return YES;
 }
 

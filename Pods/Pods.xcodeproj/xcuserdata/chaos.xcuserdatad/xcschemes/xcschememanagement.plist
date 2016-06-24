@@ -19,6 +19,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CHTCollectionViewWaterfallLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,7 +44,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SSKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VBFPopFlatButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YTKNetwork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,7 +67,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>134D0CE0380AD7F9BAE3FCFC748940BA</key>
+		<key>0DC67431F991487C20DFB44AEB867BC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26784F2BCBA30561E7F0C534E3E5F6A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +82,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>41CDBAC0B39B936FF619A97C9FA58423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>426BC4549A625B5E1E4200D5261A98BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>580D347759CD50A2D36EAC8F70041DED</key>
+		<key>729B920620F79F1D48BEDBD4E33376E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>643FA277359520CC652DDB2AEBFE2D16</key>
+		<key>86653B9A48798B9F8CABDE12D9E86CC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9B36D462102DAF8E84F6D9AB9C868C59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B3C760711B585710870482548EF04B3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2BFEE58FA79B97C342D94F6470540B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

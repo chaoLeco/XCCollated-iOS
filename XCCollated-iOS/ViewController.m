@@ -18,8 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _dataSource = @[@"pickerView整理",@"tableView 没有数据",@"图片的拉伸"];
-    _detailSource = @[@"包括 datepickerView 和普通的pickerView。",@"给别人的内容加了一层tableView的外壳",@"跟随ScrollView的滑动缩放图片"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,10 +25,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSArray *)dataSource
+{
+    if (!_dataSource) {
+        _dataSource = @[@"pickerView整理",@"tableView 没有数据",@"图片的拉伸",@"瀑布流照片展示"];
+    }
+    return _dataSource;
+}
 
+-(NSArray *)detailSource
+{
+    if (!_detailSource) {
+        _detailSource = @[@"包括 datepickerView 和普通的pickerView。",
+                         @"给别人的内容加了一层tableView的外壳",
+                         @"跟随ScrollView的滑动缩放图片",
+                         @"图片来源于“花瓣”，使用layoutSDK"];
+    }
+    return _detailSource;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _dataSource.count;
+    return self.dataSource.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -39,8 +54,8 @@
 //    if (cell == nil) {
 //        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
 //    }
-    cell.textLabel.text = _dataSource[indexPath.row];
-    cell.detailTextLabel.text = _detailSource[indexPath.row];
+    cell.textLabel.text = self.dataSource[indexPath.row];
+    cell.detailTextLabel.text = self.detailSource[indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
@@ -56,6 +71,9 @@
             break;
         case 2:
             [self performSegueWithIdentifier:@"picStrectchSegue" sender:indexPath];
+            break;
+        case 3:
+            [self performSegueWithIdentifier:@"photoViewSbSegue" sender:indexPath];
             break;
         default:
             break;
